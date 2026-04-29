@@ -120,7 +120,7 @@ int main(void)
   OLED_ShowString(0, 0, "BLDC", OLED_8X16);
   OLED_Update();
   float Angle = 0.0f;
-  float Angle_NO_TRACK = 0.0f;
+  float Angle_NO_TRACK = 0.0f;//随便写测试git的注释
   /* USER CODE END 2 */
 
   /* Infinite loop */

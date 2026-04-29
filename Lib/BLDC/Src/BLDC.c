@@ -137,7 +137,7 @@ void set_phase_voltage(float Uq, float Ud, float Angle)
     uc = (-sqrt(3) * Ubeta - Ualpha) / 2.0f + voltage_power_supply / 2.0f;
 
     // 设置PWM
-    set_PWM(ua, ub, uc);
+    set_PWM(ua, ub, uc);//随便写测试git的注释
 }
 
  /**
