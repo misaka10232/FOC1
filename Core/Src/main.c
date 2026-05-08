@@ -127,13 +127,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    // Angle = GetAngle();
-    // Angle_NO_TRACK = GetAngle_Without_Track();
-    velocity_open_loop(-50);
+    Angle = GetAngle();
+    Angle_NO_TRACK = GetAngle_Without_Track();
+    // velocity_open_loop(-50);
     // Set_TarAngle(M_PI);
-    // OLED_Printf(0, 16, OLED_8X16, "Angle = %4.2f", Angle);
-    // OLED_Printf(0, 32, OLED_8X16, "Angle = %4.2f", Angle_NO_TRACK);
-    // OLED_Update();
+    OLED_Printf(0, 16, OLED_8X16, "Angle = %4.2f", Angle);
+    OLED_Printf(0, 32, OLED_8X16, "Angle = %4.2f", Angle_NO_TRACK);
+    OLED_Update();
 
 
     // velocity_open_loop(50);
